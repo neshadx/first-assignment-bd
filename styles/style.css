@@ -193,6 +193,51 @@ margin-bottom: 20px;
     background-color: #FFF8E5;
 }
 
+/* Blockquote */
+.block-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9fafb;
+}
 
+.block-container{
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
+.blockquote{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555555;
+    background-image: url('../images/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 65px;
+    padding-top: 5px;
+}
 
+.blockquote p{
+    margin: 0;
+}
+
+.blockquote strong{
+    font-size: 20px;
+    color: #222;
+    display: block;
+    margin-top: 20px;
+}
+
+.blockquote footer{
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
