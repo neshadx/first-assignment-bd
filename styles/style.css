@@ -1,0 +1,105 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+
+/* Header */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.logo{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sign-in{
+    font-size: 18px;
+    color: #065f46;
+    padding: 10px 20px;
+    border: 2px solid #065f46;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-in:hover{
+    background-color: #065f46;
+    color: #ffffff;
+}
+
+/* Hero */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    margin: 40px 80px;
+    background-color: #d1fae5;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content{
+    max-width: 650px;
+}
+
+.hero-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.title{
+color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.hero-btn{
+    display: inline-block;
+    background-color: #065f46;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.hero-btn:hover{
+    background-color: #F30200;
+    transform: scale(1.06);
+}
+
+.hero-image{
+    width: 100%;
+    max-width: 500px;
+    object-fit: contain;
+}
+
